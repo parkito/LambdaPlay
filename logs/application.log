@@ -1,0 +1,5 @@
+2018-06-20 01:36:22,484 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-10 - Creating Pool for datasource 'default'
+2018-06-20 01:36:22,714 [INFO] from play.api.db.HikariCPConnectionPool in play-dev-mode-akka.actor.default-dispatcher-10 - datasource [default] bound to JNDI as DefaultDS
+2018-06-20 01:36:22,730 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-10 - Database [default] connected at jdbc:h2:mem:play
+2018-06-20 01:36:24,608 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-3 - Slf4jLogger started
+2018-06-20 01:36:24,859 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-10 - Application started (Dev)
