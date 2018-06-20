@@ -1,4 +1,4 @@
-package models;
+package siksmfp.model;
 
 import javax.persistence.*;
 

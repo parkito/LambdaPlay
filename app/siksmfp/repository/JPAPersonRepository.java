@@ -1,6 +1,8 @@
-package models;
+package siksmfp.repository;
 
 import play.db.jpa.JPAApi;
+import siksmfp.DatabaseExecutionContext;
+import siksmfp.model.Person;
 
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
@@ -11,9 +13,6 @@ import java.util.stream.Stream;
 
 import static java.util.concurrent.CompletableFuture.supplyAsync;
 
-/**
- * Provide JPA operations running inside of a thread pool sized to the connection pool
- */
 public class JPAPersonRepository implements PersonRepository {
 
     private final JPAApi jpaApi;
