@@ -1,4 +1,4 @@
-# My unsuccessful experience using play framework.
+# My unsuccessful experience with using play framework
 
 I tried to use play framework. So, i hate it. Maybe i'm not ready to use such great technology, but i give up.
 
